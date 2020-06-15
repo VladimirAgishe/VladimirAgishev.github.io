@@ -39,7 +39,7 @@ $(document).ready(function () {
              city = location.address.city
         });
 
-        $('#city').html(city);
+        document.getElementById(inputplace).value = city;
         $('#temp').html(temp);
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
