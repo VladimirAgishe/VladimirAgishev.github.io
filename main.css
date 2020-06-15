@@ -8,7 +8,7 @@
 
 .div1{
     position: relative;
-    padding-top: 3%;
+    
     font-family: Montserrat;
     font-style: italic;
     font-weight: 900;
@@ -22,7 +22,7 @@
 
 .img-container {
     text-align: center;
-    padding-top: 8% ;
+    padding-top: 3% ;
   }
 .degrees{
     position: relative;
@@ -41,7 +41,7 @@
 }
 
 .group 			  { 
-  position:relative; 
+  position: relative;
   margin-bottom:45px; 
 }
 input 				{
@@ -50,7 +50,7 @@ input 				{
   display:block;
   width:300px;
   border:none;
-  border-bottom:1px solid #FFFFFF;
+  
 }
 input:focus 		{ outline:none; }
 
@@ -130,4 +130,16 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
 	from { background:#FFFFFF; }
   to 	{ width:0; background:transparent; }
+}
+.inputfield1{
+    width: 100%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
