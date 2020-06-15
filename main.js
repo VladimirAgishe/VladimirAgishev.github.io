@@ -20,6 +20,7 @@ $(document).ready(function () {
         $.getJSON(URL, function(data) {
             updateDOM(data);
         });
+        
     }
 
     // Update Dom
@@ -33,7 +34,10 @@ $(document).ready(function () {
         if (desc = 'sunny'){
             icon = 'images/Sunny.png'
         };
-
+        geolocator.locateByIP(options, function (err, location) {
+             console.log(location.address.city);
+             city = location.address.city
+        });
 
         $('#city').html(city);
         $('#temp').html(temp);
