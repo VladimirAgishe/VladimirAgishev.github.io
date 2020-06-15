@@ -35,7 +35,7 @@ $(document).ready(function () {
         };
 
 
-        
+        $('#city').html(city);
         $('#temp').html(temp);
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
