@@ -1,0 +1,252 @@
+.hamburger-menu{
+    display: none;
+}
+#menu__toggle {
+    opacity: 0;
+    
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: #f3f1f1;
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+    width: 10vw;
+    height: 10vw;
+  
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    
+    width: 5vh;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #f3f1f1;
+  
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+  
+    width: 300px;
+    height: 100%;
+  
+    margin: 0;
+    padding: 80px 0;
+  
+    list-style: none;
+  
+    background-color: #1d1e1f;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  
+    transition-duration: .25s;
+  }
+  
+  
+  .menu__item {
+    display: block;
+    padding: 12px 12px;
+    
+    color: rgb(255, 254, 254);
+  
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 6vw;
+    font-weight: 1000;
+    text-decoration-line: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover{
+    color: rgb(194, 191, 191);
+  }
+
+.container{
+    max-width: 100%;
+    
+    
+}
+.text{
+    font-family: Montserrat;
+    
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 49%;
+    cursor: pointer;
+    margin-bottom: 1.5vh;
+    
+    transition-duration: .75s;
+}
+.block:hover{
+    background-color: #5f5d5d;
+}
+
+.menu_text{
+    font-size: 4vw;
+    padding-left: 2%;
+    font-style: italic;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+.menu_text:hover{
+    color: rgb(194, 191, 191);
+    cursor: pointer;
+}
+
+.text_inside_block{
+    font-size: 5vw;
+    font-style: italic;
+    font-weight: 1000;
+}
+.block_with_text{
+    display: flex;
+    margin: auto;
+    align-content: center;
+    width: 88%;
+    height: auto;
+    justify-content: center; 
+    align-items: center;
+}
+
+.block_big{
+  float: left;
+  background-color:green;
+  height: 100%;
+  font-size: 1vw;
+  background: url('Photo/surg.jpg') -100px -400px/150% auto no-repeat;
+
+}
+.block_big > div{
+  background-position: center;
+  border-radius: 15px;
+}
+.block_small{
+    float: right;
+    padding-left: 1%;
+    height: 48%;
+}
+.small1{
+  background-color: blueviolet; 
+  height:50%;
+}
+.small2{
+  /* margin-top: 1%;  */
+  background-color: bisque;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 15px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 970px;
+    }
+    .text{
+      font-size: 4vw;
+    }
+    .text_inside_block{
+      font-size: 5vw;
+      font-style: italic;
+      font-weight: 900;
+    }
+    .block_big{
+        background: url('Photo/surg.jpg') -400px -350px/auto no-repeat;
+    }
+}
+
+@media screen and (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+    .block_big{
+        background: url('Photo/surg.jpg') 0px 0px/auto 100% no-repeat;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: none;
+
+    }
+    .block{
+        display: block;
+        justify-content: center;
+    }
+    .block_big{
+        width: 100%;
+        height: 50%;
+        margin-right: 0px;
+        background: url('Photo/surg.jpg') 0px -250px/100% auto no-repeat;
+    }
+    .block_small{
+        margin-top: 1.5vh;
+        width: 99%;
+        float: left;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
+    .menu_text{
+        display: none;
+    }
+    
+    
+} 
+

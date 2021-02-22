@@ -1,0 +1,61 @@
+.text{
+    font-family: Montserrat;
+}
+.heading{
+    font-size: 6vw;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.youtube{
+    display: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.block_with_text{
+    
+    display: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.common{
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.back{
+    font-size: 4vw;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration-line: underline; 
+}
+.back:hover{
+    color: rgb(194, 191, 191);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
