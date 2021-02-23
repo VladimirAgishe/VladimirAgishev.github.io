@@ -261,3 +261,13 @@
 }
 
 }
+
+
+@media screen and (max-width: 370px){
+  .block_big{
+    width: 100%;
+    height: 30%;
+    margin-right: 0px;
+    background: url('Photo/surg.jpg') 0px 0px/100% auto no-repeat;
+}
+}
