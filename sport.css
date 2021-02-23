@@ -1,0 +1,42 @@
+.block_big{
+    background: url('Photo/tennis.png') -100px -400px/120% auto no-repeat;
+}
+@media screen and (max-width:1200px){
+    
+    .block_big{
+        background: url('Photo/tennis.png') -400px -350px/auto no-repeat;
+    }
+}
+
+@media screen and (max-width:992px){
+    
+    .block_big{
+        background: url('Photo/tennis.png') 0px 0px/auto 100% no-repeat;
+    }
+}
+@media screen and (max-width: 768px){
+    
+    .block_big{
+        background: url('Photo/tennis.png') 0px -350px/100% auto no-repeat;
+    }  
+    
+} 
+
+@media screen and (max-width: 564px){
+  .block_big{
+    background: url('Photo/tennis.png') 0px -250px/100% auto no-repeat;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 370px){
+  .block_big{
+    background: url('Photo/tennis.png') 0px 0px/100% auto no-repeat;
+}
+
+
+
+}
