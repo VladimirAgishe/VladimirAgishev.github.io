@@ -196,9 +196,7 @@
   }
 
 @media screen and (max-width:1200px){
-    .container{
-        max-width: 970px;
-    }
+    
     .text{
       font-size: 4vw;
     }
@@ -213,9 +211,7 @@
 }
 
 @media screen and (max-width:992px){
-    .container{
-        max-width: 750px;
-    }
+    
     .block_big{
         background: url('Photo/surg.jpg') 0px 0px/auto 100% no-repeat;
     }
@@ -250,3 +246,18 @@
     
 } 
 
+@media screen and (max-width: 564px){
+  .block_big{
+    width: 100%;
+    height: 30%;
+    margin-right: 0px;
+    background: url('Photo/surg.jpg') 0px -250px/100% auto no-repeat;
+}
+.block_small{
+  margin-top: 1.5vh;
+  width: 99%;
+  float: left;
+  height: 30%;
+}
+
+}
