@@ -6,7 +6,7 @@
 }
 @media screen and (max-width:1645px){
     .block_big_right{
-        background: url('Photo/eat.jpg') -200px 0/cover no-repeat;
+        background: url('Photo/eat.jpg') 0px 0/cover no-repeat;
     }
     .block_big_left{
         background: url('Photo/nutella.jpg') 0 0/cover no-repeat;
@@ -16,19 +16,19 @@
 
 @media screen and (max-width:1200px){
     .block_big_right{
-        background: url('Photo/eat.jpg') -300px 0/cover no-repeat;
+        background: url('Photo/eat.jpg') 0px 0/cover no-repeat;
     }
     .block_big_left{
-        background: url('Photo/nutella.jpg') -50px 0/cover no-repeat;
+        background: url('Photo/nutella.jpg') 0px 0/cover no-repeat;
     }
 }
 
 @media screen and (max-width:992px){
     .block_big_right{
-        background: url('Photo/eat.jpg') -400px 0px/cover no-repeat;
+        background: url('Photo/eat.jpg') -150px 0px/cover no-repeat;
     }
     .block_big_left{
-        background: url('Photo/nutella.jpg') -120px 0px/auto 100% no-repeat;
+        background: url('Photo/nutella.jpg') 0px 0px/auto 100% no-repeat;
     }
 }
 @media screen and (max-width: 768px){
