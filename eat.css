@@ -1,0 +1,141 @@
+#page_container{
+  flex-direction: column; 
+  justify-content: space-around;
+  padding: 0 2vh;
+  height: 120vh;
+}
+.block_big_right{
+  background: url('Photo/eat.jpg') -210px 0px/cover no-repeat;
+  width: 30vw;
+}
+.block_big_left{
+  background: url('Photo/nutella.jpg') 0 0/cover no-repeat;
+  width: 20vw;
+}
+.block_of_blocks{
+  height: 80vh;
+}
+#bob1{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#bob2{
+  width: 60vw;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+#bob3{
+  width: 35vw;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+.block_small{
+  width: 35vw;
+  height: 36vh;
+  padding: 0px;
+  background: #e48b43;
+}
+.block_small:hover{
+  background: #ad6f3b;
+}
+.block_line{
+  background: #e48b43;
+  height: 20%;
+  margin: 0 0 0 2vw;
+}
+.block_line:hover{
+    background: #ad6f3b;
+}
+.text_inside_block{
+    font-size: 4vw;
+}
+@media screen and (max-width:1645px){
+  .block_big_right{
+    background: url('Photo/eat.jpg') -150px 0/cover no-repeat;
+  }
+  .block_big_left{
+    background: url('Photo/nutella.jpg') 0 0/cover no-repeat;
+  }
+}
+@media screen and (max-width:1200px){
+  .block_big_right{
+    background: url('Photo/eat.jpg') -275px 0/cover no-repeat;
+  }
+  .block_big_left{
+    background: url('Photo/nutella.jpg') -50px 0/cover no-repeat;
+  }
+}
+@media screen and (max-width:992px){
+  .block_big_right{
+    background: url('Photo/eat.jpg') -300px 0px/cover no-repeat;
+  }
+  .block_big_left{
+    background: url('Photo/nutella.jpg') -75px 0px/auto 100% no-repeat;
+  }
+}
+@media screen and (max-width: 768px){
+  #page_container{
+    flex-direction: column;
+    height: min-content;
+    padding: 0;
+    margin: 0 2vw;
+  }
+  #bob1{
+    width: 100%;
+    height: min-content;
+    flex-direction: column;
+    margin: 0;
+  }
+  #bob2{
+    width: 100%;
+    height: min-content;
+    flex-direction: column;
+    margin: 0;
+  }
+  #bob3{
+    width: 100%;
+    height: min-content;
+    margin: 0;
+  }
+  .block{
+    height: 40vh;
+  }
+  .block_small{
+    width: 100%;
+  }
+  .block_big_right{
+    background: url('Photo/eat.jpg') 0px 0px/cover no-repeat;
+    width:100%;
+  } 
+  .block_big_left{
+    background: url('Photo/nutella.jpg') 0 0/cover no-repeat;
+    width: 100%;
+  }  
+  .block_line{    
+    width: 100%;
+    margin: 0;     
+  }
+  .text{
+    font-size: 10vw;
+    text-align: center;
+  }  
+} 
+@media screen and (max-width: 564px){
+  .block_big_right{
+    background: url('Photo/eat.jpg') 0px -10px/125% auto no-repeat;
+  }
+  .block_big_left{
+    background: url('Photo/nutella.jpg') 0 0/cover no-repeat;
+  }
+}
+@media screen and (max-width: 400px){
+  .block_big_right{
+    background: url('Photo/eat.jpg') -60px 0px/cover no-repeat;
+  }
+  .block_big_left{
+    background: url('Photo/nutella.jpg') 0 0/cover no-repeat;
+  }
+}

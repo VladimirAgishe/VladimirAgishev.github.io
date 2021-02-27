@@ -1,0 +1,32 @@
+#page_container{
+  padding: 2vh 2vh 0;
+  flex-direction: column;
+  height: 80vh;
+}
+.block{
+    background: #ffffff;
+    height: 30vh;
+}
+.block_big{
+    width: 100%;   
+}
+.block_line{
+    width: 100%;
+}
+.block_line:hover{
+    background: #868686;
+}
+.block_big:hover{
+    cursor: auto;
+}
+@media screen and (max-width: 768px){
+  #page_container{
+    padding: 11vh 0 0 0;
+  }
+  .block_big{
+    width: 100%
+  }
+  .block_of_blocks{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,75 @@
+#page_container{
+    flex-direction: column;
+    padding: 0 2vw;
+    justify-content: space-between;
+}
+.block_big_right{
+    background: url('Photo/miband.jpg') 0 0/100% auto no-repeat;
+    width: 100%;
+    height: 35vh;
+    padding: 0px;
+    margin: 0;
+}
+.block_of_blocks{
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    height: 50vh;
+}
+.block_small{
+    background: #db4c4c;
+    height: 40vh;
+    width: 49%;
+    margin: 1.5vh 0 0 0;
+}
+.block_small:hover{
+    background: #8b3131;
+}
+.text_inside_block{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width:1645px){
+    .block_big_right{
+        background: url('Photo/miband.jpg') 0 0/cover no-repeat;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .block_big_right{
+        background: url('Photo/miband.jpg') 0 0/cover no-repeat;
+    }
+}
+
+@media screen and (max-width:992px){
+    .block_big_right{
+        background: url('Photo/miband.jpg') 0px 0px/cover no-repeat;
+    }
+}
+@media screen and (max-width: 768px){
+    #page_container{
+        padding: 3vh 2vw 0;
+    }
+    .block_big_right{
+        background: url('Photo/miband.jpg') 0px 0px/cover no-repeat;
+    }
+    .block_of_blocks{
+        flex-direction: column;
+    }  
+    .block_small{
+        width: 100%
+    }
+
+} 
+
+@media screen and (max-width: 564px){
+  .block_big_right{
+    background: url('Photo/miband.jpg') -350px 0px/200% auto no-repeat;
+    }
+}
+
+@media screen and (max-width: 440px){
+  .block_big_right{
+    background: url('Photo/miband.jpg') -600px 0px/300% auto no-repeat;
+    }
+}

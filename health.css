@@ -1,0 +1,33 @@
+.block_big{
+  background: url('Photo/surg.jpg') -100px -550px/150% auto no-repeat;
+}
+@media screen and (max-width:1200px){  
+  .block_big{
+    background: url('Photo/surg.jpg') 0px 00px/cover no-repeat;
+  }
+}
+@media screen and (max-width:992px){
+  .block_big{
+    background: url('Photo/surg.jpg') 0px -10px/cover no-repeat;
+  }
+}
+@media screen and (max-width: 768px){
+  .block_big{
+    background: url('Photo/surg.jpg') 0px -250px/100% auto no-repeat;
+  }  
+} 
+@media screen and (max-width: 564px){
+  .block_big{
+    background: url('Photo/surg.jpg') 0px -150px/100% auto no-repeat;
+  }
+}
+@media screen and (max-width: 400px){
+  .block_big{
+    background: url('Photo/surg.jpg') 0px 0px/150% auto no-repeat;
+  }
+}
+@media screen and (max-width: 370px){
+  .block_big{
+    background: url('Photo/surg.jpg') 0px 0px/150% auto no-repeat;
+  }
+}

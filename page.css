@@ -1,0 +1,96 @@
+.heading{
+  font-size: 4vw;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  padding-bottom: 6%;
+  padding-top: 6%;
+  font-family: Montserrat;
+}
+.youtube{
+  display: absolute; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+}
+.block_with_text{
+  display: absolute; 
+  justify-content: center; 
+  align-items: center; 
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.common{
+  font-size: 2.3vw;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-family: 'PT Sans Caption', sans-serif;
+}
+.back{
+  font-size: 3vw;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration-line: underline; 
+  font-family: Montserrat;
+}
+.back:hover{
+  color: rgb(194, 191, 191);
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+@media screen and (max-width:992px){
+  .heading{
+    font-size: 8vw;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+  }
+  .common{
+    font-size: 3.6vw;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }  
+  .block_with_text{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width:768px){
+  .heading{
+    font-size: 6vw;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+  }
+  .back{
+    font-size: 6vw;
+  }
+  .common{
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+  }  
+  .block_with_text{
+  display: absolute; 
+  justify-content: center; 
+  align-items: center; 
+  padding-left: 2%;
+  padding-right: 2%;
+  }
+}
